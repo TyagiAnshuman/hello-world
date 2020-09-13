@@ -1,0 +1,16 @@
+# telnet localhost 2181
+Trying ::1...
+Connected to localhost.
+Escape character is '^]'.
+srvr
+Zookeeper version: 3.4.6-1569965, built on 02/20/2014 09:09 GMT
+Latency min/avg/max: 0/0/0
+Received: 1
+Sent: 0
+Connections: 1
+Outstanding: 0
+Zxid: 0x0
+Mode: standalone
+Node count: 4
+Connection closed by foreign host.
+#
