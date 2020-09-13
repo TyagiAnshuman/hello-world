@@ -1,0 +1,11 @@
+
+# tar -zxf zookeeper-3.4.6.tar.gz
+# mv zookeeper-3.4.6 /usr/local/zookeeper
+# mkdir -p /data1/lib/zookeeper
+# cat > /usr/local/zookeeper/conf/zoo.cfg << EOF
+> tickTime=2000
+> dataDir=/data1/lib/zookeeper
+> clientPort=2181
+> EOF
+# export JAVA_HOME=/usr/java/jdk1.8.0_51
+# /usr/local/zookeeper/bin/zkServer.sh start
